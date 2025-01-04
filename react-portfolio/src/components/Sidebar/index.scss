@@ -95,6 +95,12 @@
           content: 'SKILLS';
         }
       }
+
+      a.portfolio-link {
+        &:after {
+          content: 'PROJECTS';
+        }
+      }
   
       a.active {
         svg {
